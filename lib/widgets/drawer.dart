@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_catalog/pages/utils/routes.dart';
+// import 'package:flutter_catalog/pages/utils/routes.dart';
 
 class MyDrawer extends StatelessWidget {
   @override
@@ -11,7 +11,7 @@ class MyDrawer extends StatelessWidget {
         color: Colors.deepPurple,
         child: ListView(
           children: [
-            DrawerHeader(
+            DrawerHeader(              
               padding: EdgeInsets.zero,
               child: UserAccountsDrawerHeader(
                 margin: EdgeInsets.zero,
@@ -42,7 +42,7 @@ class MyDrawer extends StatelessWidget {
                 color: Colors.white,
               ),
               title: Text(
-                "profile",
+                "Profile",
                 textScaleFactor:1.2,
                 style: TextStyle(
                   color: Colors.white,
