@@ -14,8 +14,6 @@ class ItemWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Colors.blueGrey,
-      shape: StadiumBorder(),
       elevation: 10.0,
       child: ListTile(
         onTap: () {
